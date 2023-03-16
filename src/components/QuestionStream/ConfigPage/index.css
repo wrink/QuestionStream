@@ -1,0 +1,12 @@
+.ConfigPage-title {
+  margin-bottom: 32px;
+}
+
+.ConfigPage-title p {
+  margin-bottom: 0;
+}
+
+.ConfigPage-button {
+  width: 100%;
+  margin-top: 30px;
+}

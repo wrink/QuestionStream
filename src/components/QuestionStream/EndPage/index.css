@@ -1,0 +1,50 @@
+.EndPage-image {
+  align-items: center;
+  display: flex;
+  margin-bottom: 42px;
+  justify-content: center;
+}
+
+.EndPage-title {
+  margin-bottom: 42px;
+}
+
+.EndPage-answers {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.EndPage-answer {
+  margin: 0;
+  padding: 16px 0;
+  width: 100%;
+}
+
+.EndPage-answer:not(:last-child) {
+  border-bottom: 1px solid #A8B8B0;
+}
+
+.EndPage-answer h6 {
+  color: #2C3358;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.EndPage-answer p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.EndPage-button-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

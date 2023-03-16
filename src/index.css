@@ -1,4 +1,6 @@
 body {
+  background: #000;
+  color: #1E233C;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +12,64 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h5 {
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+  text-align: left;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  margin-bottom: 8px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.card {
+  background: linear-gradient(90deg, #E0F596 8.31%, #F3FBD5 100%), linear-gradient(0deg, #ABB2D5, #ABB2D5);
+  border-radius: 12px;
+  padding: 64px 32px;
+}
+
+.form-check-input:checked {
+  border-color: #000;
+  background-color: #000;
+}
+
+.form-check-label {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  margin-left: -4px;
+  margin-right: 4px;
+  text-align: left;
+}
+
+.form-select {
+  margin-bottom: 16px;
 }
