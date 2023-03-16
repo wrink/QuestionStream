@@ -5,6 +5,7 @@ import { useCookies } from 'react-cookie';
 import './index.css';
 
 // SVG Imports
+import closeButtonIcon from '../../../assets/svg/close_button.svg';
 import image from '../../../assets/svg/EndPage_img.svg';
 
 function EndPage({ questions, onSubmit }) {
@@ -19,6 +20,10 @@ function EndPage({ questions, onSubmit }) {
 
   return (
     <div className='container'>
+      <div className='EndPage-close-button-icon'>
+        <img src={closeButtonIcon} alt='Close button icon.' />
+      </div>
+
       <div className='EndPage-image'>
         <img src={image} alt='Image of a screen with a check mark in the middle.' />
       </div>

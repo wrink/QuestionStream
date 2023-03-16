@@ -1,4 +1,4 @@
 .QuestionStream.card {
-  min-height: 360px;
+  position: relative;
   width: 360px;
 }

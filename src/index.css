@@ -62,7 +62,7 @@ label {
 .card {
   background: linear-gradient(90deg, #E0F596 8.31%, #F3FBD5 100%), linear-gradient(0deg, #ABB2D5, #ABB2D5);
   border-radius: 12px;
-  padding: 64px 32px;
+  padding: 64px 32px 32px;
 }
 
 .form-check-input:checked {
