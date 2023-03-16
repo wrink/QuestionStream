@@ -44,15 +44,15 @@ function ConfigForm({ values, onChange, onSubmit }) {
         Products Purchased
       </label>
       <div className='d-flex'>
-        <div className='form-check'>
+        <div className='ConfigPage-check form-check'>
           <Field type='checkbox' name='red_shirt_purchased' className='form-check-input' />
           <label htmlFor='red_shirt_purchased' className='form-check-label'>Red Shirt</label>
         </div>
-        <div className='form-check'>
+        <div className='ConfigPage-check form-check'>
           <Field type='checkbox' name='black_jeans_purchased' className='form-check-input' />
           <label htmlFor='black_jeans_purchased' className='form-check-label'>Black Jeans</label>
         </div>
-        <div className='form-check'>
+        <div className='ConfigPage-check form-check'>
           <Field type='checkbox' name='blue_sweater_purchased' className='form-check-input' />
           <label htmlFor='blue_sweater_purchased' className='form-check-label'>Blue Sweater</label>
         </div>

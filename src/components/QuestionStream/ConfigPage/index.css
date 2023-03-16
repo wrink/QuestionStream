@@ -10,3 +10,11 @@
   width: 100%;
   margin-top: 30px;
 }
+
+.ConfigPage-check {
+  flex: 1;
+}
+
+.ConfigPage-check .form-check-label {
+  padding-top: 4px;
+}
